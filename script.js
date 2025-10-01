@@ -1,7 +1,7 @@
 const fetchWeather = async () => {
     let searchInput = document.getElementById("search").value;
     const weatherDataSection = document.getElementById("weather-data");
-    const apiKey = "CANT SHARE FOR SAFETY REASONS";
+    const apiKey = "//REPLACE WITH VALID API KEY//";
     if (searchInput == "") {
         weatherDataSection.innerHTML= `
         <div>
